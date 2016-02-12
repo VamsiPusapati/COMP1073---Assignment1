@@ -55,7 +55,7 @@ span {
 .projectinfo {
 	width: 100%;
 	height: 160px;
-	background-color: #128ac7;
+	background-color: #50bbc0;
 	text-align: center;
 	color: floralwhite;
 	padding: 13px;
@@ -63,6 +63,7 @@ span {
 
 #projectInfo {
 	color: red;
+	
 }
 
 label {
