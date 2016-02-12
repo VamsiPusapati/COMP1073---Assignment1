@@ -52,6 +52,19 @@ span {
     background-color: #fefbf5;
 }
 
+.projectinfo {
+	width: 100%;
+	height: 160px;
+	background-color: #128ac7;
+	text-align: center;
+	color: floralwhite;
+	padding: 13px;
+}
+
+#projectInfo {
+	color: red;
+}
+
 label {
     display: block;
     margin-top: 20px;
