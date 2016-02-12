@@ -10,11 +10,9 @@
 	<link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
 	<linl rel="stylesheet" href="Content/css/font-awesome.min.css">
 		<link rel="stylesheet" href="Content/app.css">
-		<title>Mini Portfolio</title>
 </head>
 
 <body>
-
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -26,7 +24,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Vamsi</a>
+				<a class="navbar-brand" href="#">Brand</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,25 +41,38 @@
 		<!-- /.container-fluid -->
 	</nav>
 
-	<main class="container" role="main">
-		<header role="banner">
-			<section class="jumbotron" id="me">
-				<h1>Vamsi Pusapati <span>Web Developer</span></h1>
-				<p class="hidden-xs hidden-sm" id="aboutMe"> </p>
-				<a href="contact.html" class="hidden-xs hidden-sm"> Let's Connect! </a>
-				<a href="index.html" class="hidden-xs hidden-sm">Know More </a>
-			</section>
-
-	</main>
-
-
-	<!-- JavaScript Section -->
-	<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
-	<script src="Scripts/lib/bootstrap.min.js"></script>
-	<script src="Scripts/app.js"></script>
+	<main class="container" id="mainContent">
+		<section class="row">
+		<section class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<p> Send me your questions, comments and project related queries! </p>
+			<p>You need to fill in all required fields!!</p>
+			<form method="post" action="index.html" role="form" class="form-horizontal">
+				<div class="form-group">
+					<label for="name">Your Name</label>
+					<input name="name" id="name">
+				</div>
+				<div class="form-group">
+					<label for="email">Your Email</label>
+					<input name="email" type="email" id="email">
+				</div>
+				<div class="form-group">
+					<label>Message</label>
+					<textarea name="message" id="message" placeholder="Question, comment or query.."></textarea>
+				</div>
+				<input id="submit" name="submit" type="submit" value="Submit">
+			</form>
+		</section>
+		</section> <!-- row -->
 </body>
+</main>
+
+
+<!-- JavaScript Section -->
+<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
+<script src="Scripts/lib/bootstrap.min.js"></script>
+<script src="Scripts/app.js"></script>
+
 <footer role="contentinfo">
 	<p><small>© Vamsi Pusapati 2016</small></p>
 </footer>
-
-</html>
+<html>
